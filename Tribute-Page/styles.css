@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background: #c3d4f6;
+  }
+  
+  
+  
+  .header {
+    padding: 30px;
+    text-align: center;
+    background-image: url('image/midnight header2.jpg');
+    background-size: cover;
+    background-position: center; 
+  }
+  .header h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #a4acdc;
+  }
+  .button-link {
+    background-color: #9ba4d6;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .button-link:hover {opacity: 1}
+
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #c3d4f6;
+    padding-left: 20px;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about img {
+    margin-right: 20px;
+    min-width: 260px;
+    min-height: 305px;
+    max-width: 260px;
+    max-height: 305px;
+  }
+  .about2 {
+    display: flex;
+    align-items: center;
+  }
+  .about2 img {
+    
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  figcaption{
+    text-align: center;
+  }
+  .card h2{
+    line-height: 0;
+    font-size: 27px;
+  }  
+  .card {
+    background-color: #a4acdc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .rightcolumn {
+    text-align: center;
+  }
+  .rightcolumn img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+    padding: 10px;
+    border-radius: 5%;
+  }
+  .border {
+    background-color: #d7e4ff;
+    width: 100%;
+    padding: 20px;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer {
+    font-size: small;
+    color: #948fdd;
+    padding: 10px;
+    text-align: center;
+    background: #b5b0ff;
+    margin-top: 10px;
+  }
+  .notice{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background: #c3d4f6;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+
+  
